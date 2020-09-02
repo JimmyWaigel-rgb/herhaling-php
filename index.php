@@ -18,8 +18,6 @@ $getal = 4;
         echo $value, PHP_EOL;
     }
 
-
-
     $bucket_list = [];
     $hoeveelheid_activiteiten = readline("Hoeveel activiteiten wil je toevoegen aan je bucket list?");
 
@@ -31,4 +29,7 @@ $getal = 4;
     foreach($bucket_list as $item){
         echo $item, PHP_EOL;
     }
+
+
+
 ?>
